@@ -4,7 +4,7 @@ html {
 
 /* body */
 body {
-   background-color: #3F3D56;
+   background-color: #FFE4B5;
    font-family: 'Poppins', sans-serif;
    background-image: url(assets/ic.png);
    background-repeat: no-repeat;
@@ -17,7 +17,8 @@ body {
 }
 
 /* navbar */
-.navbar-brand {
+.title-nav {
+   color: #654321;
    font-size: 24px;
    font-weight: 600;
 }
@@ -25,7 +26,11 @@ body {
 .nav-link {
    font-size: 20px;
    font-weight: 400;
-   color: #E5E5E5 !important;
+   color: #654321 !important;
+}
+
+.nav .container a {
+   color: #654321;
 }
 
 .myPhoto {
@@ -41,7 +46,7 @@ body {
 
 .header h4,
 p {
-   color: #E5E5E5;
+   color: #654321;
 }
 
 .header h4 {
@@ -56,7 +61,7 @@ p {
 .header p.download-cv a {
    text-decoration: none;
    font-size: 14px;
-   color: #E5E5E5;
+   color: #654321;
 }
 
 .header p.download-cv a:hover {
@@ -67,7 +72,7 @@ p {
 
 .header span.media-social a {
    text-decoration: none;
-   color: #E5E5E5;
+   color: #654321;
 }
 
 .vector1 {
@@ -81,24 +86,24 @@ p {
 
 /* experience */
 .experience .card {
-   background-color: #44425F;
-   color: #E5E5E5;
+   background-color: #FFE4B9;
+   color: #654321;
    border-radius: 15px;
 }
 
 .experience h5 {
-   color: #E5E5E5;
+   color: #654321;
    font-weight: 600;
 }
 
 /* my project */
 .project h5 {
-   color: #E5E5E5;
+   color: #654321;
    font-weight: 600;
 }
 
 .project .card {
-   background-color: #44425F;
+   background-color: #FFE4B9;
    padding: 30px;
    border-radius: 15px;
 }
@@ -116,12 +121,12 @@ p {
 
 .project .card a {
    text-decoration: none;
-   color: #E5E5E5;
+   color: #654321;
 }
 
 .project .card a:hover {
    text-decoration: none;
-   color: #2196F3;
+   color: #654321;
 }
 
 /* loading */
@@ -279,17 +284,21 @@ p {
 
 /* certificate */
 .certificate h5 {
-   color: #E5E5E5;
+   color: #654321;
    font-weight: 600;
 }
 
 .certificate .card {
-   background-color: #44425F;
+   background-color: #FFE4B9;
    padding: 30px 30px 10px 30px;
    border-radius: 15px;
 }
 
 .certificate .card img {
+   width: 100%;
+}
+
+.certificate .card2 img {
    width: 100%;
 }
 
@@ -299,7 +308,7 @@ p {
 
 .certificate .carousel-inner h3 {
    font-weight: 600;
-   color: #E5E5E5;
+   color: #654321;
 }
 
 /* tools */
@@ -314,13 +323,18 @@ p {
 }
 
 .tools h5 {
-   color: #E5E5E5;
+   color: #654321;
    font-weight: 600;
 }
 
 /* footer */
 footer p {
-   color: #E5E5E5;
+   color: #654321;
+   font-size: 14px;
+}
+
+footer h6 {
+   color: #654321;
    font-size: 14px;
 }
 
@@ -329,6 +343,9 @@ footer {
    margin-bottom: 10px;
 }
 
+footer a {
+   color: #654321;
+}
 /* Phone large */
 @media (min-width: 576px) {
    .certificate .carousel-inner {
@@ -351,7 +368,7 @@ footer {
 @media (min-width: 992px) {
    .nav-link:hover::after {
       content: "";
-      border-bottom: 3px solid #2196F3;
+      border-bottom: 3px solid #654321;
       display: block;
       margin: auto;
       width: 50%;
@@ -367,7 +384,7 @@ footer {
    .header h4,
    p {
       width: 400px;
-      color: #E5E5E5;
+      color: #654321;
    }
 
    .header p.desc {
