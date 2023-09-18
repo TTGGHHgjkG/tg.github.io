@@ -39,6 +39,74 @@ body {
    object-fit: cover;
 }
 
+.notif {
+  width: 380px;
+  height: auto;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.error-alert {
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #FFE4A5;
+}
+
+.icon {
+  margin-bottom: 100px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #654321;
+  padding: 0.5rem;
+  color: #FFE4B5;
+}
+
+.icon svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.error-prompt-heading {
+  margin-left: 20px;
+  color: #654321;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.error-prompt-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-prompt-wrap {
+  margin-top: 0.5rem;
+  color: #654321;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.error-prompt-list {
+  margin-top: 0.25rem;
+  list-style-type: disc;
+  margin-left: -50px;
+}
+
 /* header */
 .vector1 {
    margin-top: 50px;
@@ -380,6 +448,33 @@ footer a {
       font-size: 28px;
       font-weight: 600;
    }
+   
+   .notif {
+      width: 400px;
+      height: auto;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+  .icon {
+  margin-bottom: 100px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #654321;
+  padding: 0.5rem;
+  color: #FFE4B5;
+}
+
+.icon svg {
+  height: 1rem;
+  width: 1rem;
+}
 
    .header h4,
    p {
