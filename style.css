@@ -61,7 +61,7 @@ h6 {
 }
 
 .notif {
-  width: 380px;
+  width: 370px;
   height: auto;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -86,7 +86,7 @@ h6 {
 }
 
 .icon {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -126,6 +126,61 @@ h6 {
   margin-top: 0.25rem;
   list-style-type: disc;
   margin-left: -50px;
+}
+
+.magic-link {
+  color: #654321;
+  margin-top: 50px;
+  text-align: center;
+}
+.notif2 {
+  margin-left: 55px;
+  width: 300px;
+  height: auto;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.alert {
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #FFE4A5;
+}
+
+.prompt-heading {
+  color: #654321;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.prompt-container h4 {
+  text-align: center;
+  color: #654321;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.prompt-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prompt-wrap {
+  margin-top: 0.5rem;
+  color: #654321;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.prompt-list {
+  margin-top: 0.25rem;
+  list-style-type: disc;
+}
+
+.prompt-list a {
+  color: #654321;
 }
 
 /* header */
